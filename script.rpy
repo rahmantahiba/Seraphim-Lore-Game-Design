@@ -10,6 +10,7 @@ define n = Character("Narrator", color="#0000ff")
 define edna = Character("Edna", color="#8b8000")
 define Alfin = Character("Alfin Reise-Arnor", color="#ff0000")
 define mik = Character("Mikleo", color="#00ffff")
+define unknown = Character("Unknown", color="#A020F0")
 
 default food_option = False
 default walk_option = False
@@ -18,7 +19,7 @@ default not_chase_option = False
 
 
 label start:
-    pause
+
     unknown "Hello players doesn't this place seem like its inescapable?"
     unknown "Like there is no where to run...will you climb the stairs or...will
     you hope to put your faith in me?"
